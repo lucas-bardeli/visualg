@@ -3,6 +3,11 @@ Algoritmo "Vetor exercício 6"
 // Professor: MSc. Tiago Antonio da Silva
 
 // Descrição:
+// Faça um algoritmo que leia 10 notas de alunos (valores reais)
+// e armazene em um vetor. Depois:
+//  a) Calcule a média das notas;
+//  b) Mostre quais alunos tiraram notas acima da média,
+//     com o número da posição e a nota.
 
 // Autor(a): Lucas Bardeli de Bastiani Silva
 // Data atual: 09/05/2025

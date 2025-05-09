@@ -3,6 +3,9 @@ Algoritmo "Vetor exercício 5"
 // Professor: MSc. Tiago Antonio da Silva
 
 // Descrição:
+// Crie um vetor de 10 posições com números inteiros digitados.
+// Em seguida, leia um número inteiro e informe se ele está
+// presente no vetor e em qual(ais) posição(ões).
 
 // Autor(a): Lucas Bardeli de Bastiani Silva
 // Data atual: 09/05/2025

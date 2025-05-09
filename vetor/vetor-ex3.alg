@@ -3,6 +3,8 @@ Algoritmo "Vetor exercício 3"
 // Professor: MSc. Tiago Antonio da Silva
 
 // Descrição:
+// Escreva um algoritmo que leia 8 números inteiros em um vetor
+// e calcule a soma de todos os valores armazenados.
 
 // Autor(a): Lucas Bardeli de Bastiani Silva
 // Data atual: 09/05/2025

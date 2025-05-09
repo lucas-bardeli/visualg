@@ -3,6 +3,8 @@ Algoritmo "Vetor exercício 1"
 // Professor: MSc. Tiago Antonio da Silva
 
 // Descrição:
+// Crie um algoritmo leia 5 números inteiros e os armazene e um vetor.
+// Em seguida, exiba os números na ordem em que foram digitados.
 
 // Autor(a): Lucas Bardeli de Bastiani Silva
 // Data atual: 09/05/2025

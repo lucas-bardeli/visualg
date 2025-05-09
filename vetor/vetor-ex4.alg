@@ -3,6 +3,8 @@ Algoritmo "Vetor exercício 4"
 // Professor: MSc. Tiago Antonio da Silva
 
 // Descrição:
+// Leia 6 valores numéricos inteiros e armazene em um vetor.
+// Depois, exiba os valores na ordem inversa da que foram digitados.
 
 // Autor(a): Lucas Bardeli de Bastiani Silva
 // Data atual: 09/05/2025
