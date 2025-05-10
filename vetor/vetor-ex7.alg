@@ -3,6 +3,9 @@ Algoritmo "Vetor exercício 7"
 // Professor: MSc. Tiago Antonio da Silva
 
 // Descrição:
+// Faça um algoritmo que tenha um vetor de 10 posições.
+// Receba os dez números digitados pelo usuário e apresente o maior,
+// o menor e a posição em que esses números estão armazenados.
 
 // Autor(a): Lucas Bardeli de Bastiani Silva
 // Data atual: 09/05/2025
@@ -24,6 +27,8 @@ Inicio
         se (i = 1) entao
            menor <- numeros[i]
            maior <- numeros[i]
+           p_maior <- i
+           p_menor <- i
         fimse
         
         se (numeros[i] > maior) entao
