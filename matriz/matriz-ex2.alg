@@ -3,6 +3,9 @@ Algoritmo "Tesouro escondido"
 // Professor: MSc. Tiago Antonio da Silva
 
 // Descrição:
+// Crie um programa que leia uma matriz 3x3 com números.
+// O número 1 representa o tesouro, e os 0 representam locais vazios.
+// Mostre a posição [linha, coluna] onde o tesouro está escondido.
 
 // Autor(a): Lucas Bardeli de Bastiani Silva
 // Data atual: 16/05/2025

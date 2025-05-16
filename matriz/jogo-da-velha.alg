@@ -6,8 +6,8 @@ Algoritmo "Jogo da Velha"
 // Crie um jogo da velha, onde cada jogador escolhe a linha e coluna
 // da sua jogada. Seu jogo deverá ser capaz de avaliar quem ganhou
 // a cada jogada. O jogo também não permite colocar a informação
-// em uma posição que o já está ocupada.
-// Falta verificar se deu Empate, ou Velha.
+// em uma posição que já está ocupada.
+// Falta verificar se deu empate (ou Velha).
 
 // Autores:
 // Professor: MSc. Tiago Antonio da Silva
