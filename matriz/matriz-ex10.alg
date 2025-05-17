@@ -14,9 +14,40 @@ Algoritmo "Sinais de presença alienígena"
 Var
 // Seção de Declarações das variáveis 
 
+   sinais: vetor[1..5, 1..5] de inteiro
+   i, j, total, intensa: inteiro
 
 Inicio
 // Seção de Comandos, procedimento, funções, operadores, etc... 
 
+   para i de 1 ate 5 faca
+        para j de 1 ate 5 faca
+             sinais[i, j] <- randi(2)
+        fimpara
+   fimpara
+   
+   para i de 1 ate 5 faca
+        para j de 1 ate 5 faca
+             escreva(sinais[i, j])
+        fimpara
+        escreval
+   fimpara
+   
+   escreval
+   para i de 1 ate 5 faca
+        intensa <- 0
+        para j de 1 ate 5 faca
+             se (sinais[i, j] = 1) entao
+                total <- total + 1
+                intensa <- intensa + 1
+             fimse
+        fimpara
+        se (intensa > 3) entao
+           escreval("Atividade intensa detectada na linha", i)
+        fimse
+   fimpara
+   
+   escreval
+   escreval("O total de sinais foi:", total)
 
 Fimalgoritmo
