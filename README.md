@@ -11,8 +11,14 @@ que é executada para resolver um problema ou realizar uma tarefa.
 | Igualdade | = | == ou === |
 | Diferença | <> | != ou !== |
 | Exponenciação | Não disponível | ** |
-| Estrutura | se e senão | if else |
-| Estrutura | escolha caso | switch case |
+| Estrutura de decisão | se e senão | if else |
+| Estrutura de decisão | escolha caso | switch case |
+| Estrutura de repetição | para | for |
+| Estrutura de repetição | repita | do while |
+| Estrutura de repetição | enquanto | while |
+| Estruturas | vetor | array |
+| Estruturas | matriz | array |
+| Estruturas | registro | struct |
 
 ## Como executar:
 * Você pode baixar os aquivos através do botão **Add file** acima dos arquivos do repositório e depois selecionar o **Upload files**.

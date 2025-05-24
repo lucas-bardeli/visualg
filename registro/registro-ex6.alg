@@ -18,7 +18,8 @@ Var
 // Seção de Declarações das variáveis 
 
    funcionarios: vetor[1..4] de TFuncionario
-   i, maior: inteiro
+   i, posicao: inteiro
+   maior: real
 
 Inicio
 // Seção de Comandos, procedimento, funções, operadores, etc... 
@@ -26,15 +27,20 @@ Inicio
    maior <- 0
    para i de 1 ate 4 faca
         escreval("Funcionário", i)
-        escreval("Nome: ")
+        escreva("Nome: ")
         leia(funcionarios[i].nome)
-        escreval("Salário: ")
+        escreva("Salário: ")
         leia(funcionarios[i].salario)
         
         se (funcionarios[i].salario > maior) entao
-           maior <-
+           maior <- funcionarios[i].salario
+           posicao <- i
         fimse
         escreval
    fimpara
+   
+   escreval("Funcionário que ganha mais:")
+   escreval("Nome: ", funcionarios[posicao].nome)
+   escreval("Salário: R$", funcionarios[posicao].salario)
 
 Fimalgoritmo
