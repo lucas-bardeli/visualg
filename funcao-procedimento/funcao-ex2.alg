@@ -15,18 +15,27 @@ Var
 // Seção de Declarações das variáveis 
 
    digitado, secreto: inteiro
+   resultado: logico
 
 funcao verificarPalpite(palpite: inteiro): logico
 var
-   tentativas: inteiro
+   i: inteiro
    retorno: logico
 inicio
-      se (palpite = secreto) entao
-         retorno <- verdadeiro
-      senao
-           retorno <- falso
-           tentativas <- tentativas + 1
-      fimse
+
+      repita
+         se (palpite = secreto) entao
+            retorno <- verdadeiro
+         senao
+              retorno <- falso
+              i <- i + 1
+              escreval
+              escreval("Tentativa: ", i)
+              escreval
+              escreva("Tente adivinhar o número secreto: ")
+              leia(palpite)
+         fimse
+      ate (retorno = verdadeiro)
       
       retorne retorno
 fimfuncao
@@ -34,11 +43,16 @@ fimfuncao
 Inicio
 // Seção de Comandos, procedimento, funções, operadores, etc... 
 
-   secreto <- randi(11)
+   secreto <- randi(16)
 
    escreva("Tente adivinhar o número secreto: ")
    leia(digitado)
-   
-   verificarPalpite(digitado)
+
+   resultado <- verificarPalpite(digitado)
+
+   se (resultado = verdadeiro) entao
+      escreval
+      escreval("Parabéns, você acertou!")
+   fimse
 
 Fimalgoritmo
